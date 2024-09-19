@@ -1,5 +1,6 @@
 Experiments on UCE using SCP chicken data - https://github.com/snap-stanford/UCE/issues/35
-
 tested on anuce-env
+
+GALLUS POSTGITHUB CHECK WAS DONE IN CXG-ENV MAMBA
 
 (uce-env) (BOOKWORM)jiribruthans@kirke57:/storage/brno2/home/jiribruthans/UCE/gallus_data$ python3 eval_single_anndata.py --adata_path "/storage/brno2/home/jiribruthans/UCE-postgithub/ggs_scp_chicken_retina.h5ad" --dir "/storage/brno2/home/jiribruthans/UCE-postgithub/data/"  --species "chick"  --model_loc "/storage/brno2/home/jiribruthans/UCE/33l_8ep_1024t_1280.torch" --batch_size 25 --CHROM_TOKEN_OFFSET=13275 --spec_chrom_csv_path=/storage/brno2/home/jiribruthans/UCE/data_proc/chick_to_chrom_pos.csv --token_file=/storage/brno2/home/jiribruthans/UCE/data_proc/chick_pe_tokens.torch --offset_pkl_path=/storage/brno2/home/jiribruthans/UCE/gallus_data/chick_offsets.pkl --nlayers 33
